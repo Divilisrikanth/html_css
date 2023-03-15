@@ -5,9 +5,183 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple webpage</title>
-    <link rel="stylesheet" href="../html-css/index.css">
-    <link rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/brands.min.css">
-
+    <style>
+        /*css class selector*/
+body {
+  background-color: lightcyan;
+}
+.para {
+  text-align: center;
+  color: tomato;
+}
+/*css id selector*/
+#secondpara {
+  color: rgb(32, 218, 57);
+}
+#Thirdpara {
+  color: rgb(201, 28, 57);
+}
+.fourthcontainer {
+  background-color: rgb(200, 231, 26);
+  opacity: 0.3;
+}
+/*css class selector applying only for h3 tag*/
+.fourthcontainer h3 {
+  background-color: yellow;
+}
+.para4 p {
+  outline-color: red;
+}
+/*css border property for adding  outline style */
+.para p {
+  outline-style: dotted;
+}
+/*css border property for adding outline width and outline style and color*/
+p.ex1 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: rebeccapurple;
+  outline-width: 4px;
+}
+p.ex2 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: rebeccapurple;
+  outline-width: thin;
+}
+p.ex3 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: rebeccapurple;
+  outline-width: medium;
+}
+p.ex4 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: rebeccapurple;
+  outline-width: thick;
+}
+#one {
+  text-align: center;
+}
+#two {
+  text-align: right;
+}
+#three {
+  text-align: left;
+}
+#four {
+  text-align: justify;
+}
+/*here text in the container strecthes  equally margin so that each line as equal width like newspaper */
+.fifthcontainer {
+  border: 1px solid black;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  text-align: justify;
+}
+h4 {
+  text-decoration: overline;
+}
+#sixth {
+  text-decoration: line-through;
+}
+#seventh {
+  text-decoration: underline;
+}
+.eight p {
+  text-transform: capitalize;
+}
+/*different font families and styles*/
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.p3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+table,
+th,
+td {
+  border: 1px solid;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th {
+  height: 70px;
+}
+.ninthsection,
+li {
+  display: inline;
+}
+.tenthsection {
+  position: relative;
+}
+.black-box {
+  position: relative;
+  z-index: 1;
+  border: 2px solid black;
+  height: 100px;
+  margin: 30px;
+}
+.green-box {
+  position: absolute;
+  z-index: 2;
+  background: lightgreen;
+  width: 35%;
+  left: 270px;
+  top: -15px;
+  height: 100px;
+}
+.gray-box {
+  position: absolute;
+  z-index: 3;
+  background: lightgray;
+  height: 60px;
+  width: 70%;
+  left: 50px;
+  top: 50px;
+}
+.eleven {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+} /*child selector*/
+/*.twelth > p {
+  background-color: yellow;
+}*/
+/*Adajcent sibiling selector*/
+/*.twelth + p {
+  background-color: green;
+}*/
+/*sibling selector*/
+.twelth ~ p {
+  background-color: green;
+}
+.thirthen,
+a:link {
+  color: red;
+}
+.thirthen,
+a:visited {
+  color: green;
+}
+.thirthen,
+a:hover {
+  color: hotpink;
+}
+.thirthen,
+a:active {
+  color: blue;
+}
+</style>
 </head>
 <body>
     <div class="para">
